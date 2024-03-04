@@ -47,10 +47,10 @@ export const navLinks = [
       name: "Free",
       icon: "/assets/icons/free-plan.svg",
       price: 0,
-      credits: 20,
+      credits: 40,
       inclusions: [
         {
-          label: "20 Free Credits",
+          label: "40 Free Credits",
           isIncluded: true,
         },
         {
@@ -71,11 +71,11 @@ export const navLinks = [
       _id: 2,
       name: "Pro Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 40,
-      credits: 120,
+      price: 10,
+      credits: 300,
       inclusions: [
         {
-          label: "120 Credits",
+          label: "300 Credits",
           isIncluded: true,
         },
         {
@@ -96,11 +96,11 @@ export const navLinks = [
       _id: 3,
       name: "Premium Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 199,
-      credits: 2000,
+      price: 20,
+      credits: 600,
       inclusions: [
         {
-          label: "2000 Credits",
+          label: "600 Credits",
           isIncluded: true,
         },
         {
@@ -123,21 +123,21 @@ export const navLinks = [
     restore: {
       type: "restore",
       title: "Restore Image",
-      subTitle: "Refine images by removing noise and imperfections",
+      subTitle: "Improve the quality of images",
       config: { restore: true },
       icon: "image.svg",
     },
     removeBackground: {
       type: "removeBackground",
       title: "Background Remove",
-      subTitle: "Removes the background of the image using AI",
+      subTitle: "Removes the background of the image",
       config: { removeBackground: true },
       icon: "camera.svg",
     },
     fill: {
       type: "fill",
       title: "Generative Fill",
-      subTitle: "Enhance an image's dimensions using AI outpainting",
+      subTitle: "Enhance an image's dimensions",
       config: { fillBackground: true },
       icon: "stars.svg",
     },
